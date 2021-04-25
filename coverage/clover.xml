@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1619354680438" clover="3.2.0">
-  <project timestamp="1619354680438" name="All files">
-    <metrics statements="20" coveredstatements="20" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="7" elements="31" coveredelements="31" complexity="0" loc="20" ncloc="20" packages="1" files="1" classes="1"/>
+<coverage generated="1619356568721" clover="3.2.0">
+  <project timestamp="1619356568721" name="All files">
+    <metrics statements="29" coveredstatements="29" conditionals="4" coveredconditionals="4" methods="10" coveredmethods="10" elements="43" coveredelements="43" complexity="0" loc="29" ncloc="29" packages="1" files="1" classes="1"/>
     <file name="functions.js" path="C:\Users\Karen\Desktop\Week_12_QA\functions.js">
-      <metrics statements="20" coveredstatements="20" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="7"/>
+      <metrics statements="29" coveredstatements="29" conditionals="4" coveredconditionals="4" methods="10" coveredmethods="10"/>
       <line num="3" count="1" type="stmt"/>
       <line num="4" count="1" type="stmt"/>
       <line num="9" count="1" type="stmt"/>
@@ -24,6 +24,15 @@
       <line num="43" count="2" type="stmt"/>
       <line num="48" count="1" type="stmt"/>
       <line num="49" count="1" type="stmt"/>
+      <line num="54" count="1" type="stmt"/>
+      <line num="56" count="2" type="stmt"/>
+      <line num="58" count="1" type="stmt"/>
+      <line num="63" count="1" type="stmt"/>
+      <line num="64" count="1" type="stmt"/>
+      <line num="65" count="1" type="stmt"/>
+      <line num="66" count="1" type="stmt"/>
+      <line num="67" count="6" type="stmt"/>
+      <line num="69" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

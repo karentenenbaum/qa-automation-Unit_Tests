@@ -49,22 +49,22 @@ export const potencia = (base, exponente) => {
     return Math.pow(base, exponente)
 }
 
-// //8
+//8
 
-// export const anidada = (a,b) => {
-//     function cuadrado(x) {
-//       return x * x;
-//     }
-//     return cuadrado(a) + cuadrado(b);
-//   }
+export const anidada = (a, b) => {
+    function cuadrado(x) {
+        return x * x;
+    }
+    return cuadrado(a) + cuadrado(b);
+}
 
-//   //9
+//9
 
-//   const cerosIzq = (num, totalLength) => {
-//     var numStr = num.toString();
-//     var numCeros = totalLength - numStr.length;
-//     for (var i = 1; i <= numCeros; i++) {
-//         numStr = "0" + numStr;
-//     }
-//     return numStr;
-//   }
+export const cerosIzq = (num, totalLength) => {
+    var numStr = num.toString();
+    var numCeros = totalLength - numStr.length;
+    for (var i = 1; i <= numCeros; i++) {
+        numStr = "0" + numStr;
+    }
+    return numStr;
+}

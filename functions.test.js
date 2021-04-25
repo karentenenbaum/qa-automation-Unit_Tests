@@ -43,8 +43,15 @@ describe('multiplication table', () => {
 
 //7
 test('potencia', () => {
-    expect(functions.potencia(8,2)).toBe(64)
+    expect(functions.potencia(8,2)).toBe(64);
 });
 
-// //8
-// test('')
+//8
+test('anidada', () => {
+    expect(functions.anidada(4,5)).toBe(41);
+});
+
+//9
+test('cerosIzq', () => {
+    expect(functions.cerosIzq(3,7)).toBe('0000003');
+});
