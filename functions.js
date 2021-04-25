@@ -34,24 +34,24 @@ export const division = (dividendo, divisor) => {
 
 //6
 
-  const tablaMultiplicar = (multiplicando, multiplicador) => {
-   if (multiplicador === undefined) multiplicador = 10;
-   let table = []
-   for (let i = 0; i <= multiplicador; i++){
-     table.push(multiplicando * i)
-   }
-  return table
-  }
+export const tablaMultiplicar = (multiplicando, multiplicador) => {
+    if (multiplicador === undefined) multiplicador = 10;
+    let table = []
+    for (let i = 0; i <= multiplicador; i++) {
+        table.push(multiplicando * i)
+    }
+    return table
+}
 
-//   //7
+//7
 
-//   const potencia = (base, exponente) => {
-//     return Math.pow(base, exponente)
-//   }
+export const potencia = (base, exponente) => {
+    return Math.pow(base, exponente)
+}
 
-//   //8
+// //8
 
-//   const anidada = (a,b) => {
+// export const anidada = (a,b) => {
 //     function cuadrado(x) {
 //       return x * x;
 //     }

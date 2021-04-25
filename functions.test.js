@@ -33,12 +33,18 @@ describe('divisions', () => {
 
 //6
 describe('multiplication table', () => {
-
-    test('multiplication by undefined', () => {
-        expect(functions.tablaMultiplicar(5)).toBe(5,10,15,20,25,30,35,40,45,50)
+    test('tablaMultiplicar by multiplier undefined', () => {
+        expect(functions.tablaMultiplicar(5)).toEqual([0,5,10,15,20,25,30,35,40,45,50]);
     });
-    
-    test('multiplier defined', () => {
-        expect(functions.tablaMultiplicar(6,7)).toBe(6,12,18,24,30,36,42)
+    test('tablaMultiplicar by multiplier defined', () => {
+        expect(functions.tablaMultiplicar(6,7)).toEqual[(0,6,12,18,24,30,36,42)];
     });
 });
+
+//7
+test('potencia', () => {
+    expect(functions.potencia(8,2)).toBe(64)
+});
+
+// //8
+// test('')
